@@ -1,0 +1,1 @@
+Select RTRIM(FIRST_NAME) from Worker;

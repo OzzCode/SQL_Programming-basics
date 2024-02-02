@@ -1,0 +1,17 @@
+CREATE TABLE account (
+  id SERIAL,
+  email VARCHAR(128) UNIQUE,
+  created_at DATE NOT NULL DEFAULT NOW(),
+  updated_at DATE NOT NULL DEFAULT NOW(),
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE post (
+  id SERIAL,
+  title VARCHAR(128) UNIQUE NOT NULL, 
+  content VARCHAR(1024), -- Will extend with ALTER
+  account_id INTEGER REFERENCES account(id) ON DELETE CASCADE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY(id)
+);

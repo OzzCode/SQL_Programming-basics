@@ -1,0 +1,12 @@
+-- CREATE TABLE IF NOT EXISTS home_sales (
+--  	parelid VARCHAR,
+--  	saledate DATE,
+--  	price INTEGER,
+--  	saletype VARCHAR
+-- )
+
+
+COPY home_sales(parcelid, saledate, price, saletype)
+FROM 'D:\Downloads\atl_home_sales.csv'
+DELIMITER ','
+CSV HEADER;

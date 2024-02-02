@@ -1,0 +1,1 @@
+CREATE TABLE WorkerClone LIKE Worker;

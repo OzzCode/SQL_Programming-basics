@@ -1,0 +1,1 @@
+SELECT name from animals where species != 'gorilla' and name != 'Max';

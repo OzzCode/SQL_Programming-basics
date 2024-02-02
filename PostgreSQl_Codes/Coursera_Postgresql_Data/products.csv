@@ -1,0 +1,12 @@
+﻿productid,productname,supplierid,categoryid,quantityperunit,unitprice,unitsinstock,unitsonorder,reorderlevel,discontinued
+5,Chef Anton's Gumbo Mix,2,2,36 boxes,21.35,0,0,0,1
+9,Mishi Kobe Niku,4,6,18 - 500 g pkgs.,97,29,0,0,1
+17,Alice Mutton,7,6,20 - 1 kg tins,39,0,0,0,1
+24,Guaraná Fantástica,10,1,12 - 355 ml cans,4.5,20,0,0,1
+28,Rössle Sauerkraut,12,7,25 - 825 g cans,45.6,26,0,0,1
+29,Thüringer Rostbratwurst,12,6,50 bags x 30 sausgs.,123.79,0,0,0,1
+42,Singaporean Hokkien Fried Mee,20,5,32 - 1 kg pkgs.,14,26,0,0,1
+53,Perth Pasties,24,6,48 pieces,32.8,0,0,0,1
+1,Chai,1,1,10 boxes x 20 bags,18,39,0,10,
+2,Chang,1,1,24 - 12 oz bottles,19,17,40,25,
+3,Aniseed Syrup,1,2,12 - 550 ml bottles,10,13,70,25,
